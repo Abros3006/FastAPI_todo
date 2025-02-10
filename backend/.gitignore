@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI & Python logs
+*.log
+logs/
+debug.log
+
+# Database files
+*.sqlite3
+*.db
+*.pdb
+*.sql
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code & PyCharm settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pytest & Coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+
+# Docker & Deployment
+docker-compose.override.yml
+.env.local
+.env.production
+.env.development
+
+# Static & Media files
+staticfiles/
+mediafiles/
+
+# Migrations (optional, if you want fresh migrations every time)
+migrations/
+
+# Poetry / pipenv
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# MyPy type checking
+.mypy_cache/
+dmypy.json
